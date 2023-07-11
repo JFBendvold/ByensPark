@@ -1,0 +1,53 @@
+.mouseFX-dot {
+    position: absolute;
+    z-index: 100;
+    pointer-events: none;
+    overflow: hidden;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: #fefefe;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 5px 1px #fefefe;
+}
+
+.mouseFX-trail {
+    position: absolute;
+    z-index: 100;
+    pointer-events: none;
+    overflow: hidden;
+    height: 48px;
+    width: 48px;
+    border: 1px dashed #fefefe;
+    background-color: transparent;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 5px 1px #fefefe;
+    opacity: 0.2;
+    transition: all 1s ease;
+}
+
+.main-clickable {
+    height: 7px;
+    width: 7px;
+    background-color: #00ff62;
+}
+
+.trail-clickable {
+    border: 1px solid #00ff62;
+    height: 24px;
+    width: 24px;
+    opacity: 1;
+}
+
+.main-input {
+    height: 7px;
+    width: 7px;
+    background-color: #ff8400;
+}
+
+.trail-input {
+    border: 1px solid #ff8400;
+    height: 24px;
+    width: 24px;
+    opacity: 1;
+}

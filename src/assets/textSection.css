@@ -1,0 +1,179 @@
+.textSection {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.textSection .sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.textSection .sections .img-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    border-radius: 40px;
+    transition: all 1s ease;
+    margin-top: 2rem;
+}
+
+.textSection .sections .img-container img:hover {
+    opacity: 1;
+    box-shadow: 0 0 20px #fefefe;
+}
+
+.textSection .sections .img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 500px;
+    border-radius: 40px;
+    opacity: 0.8;
+    box-shadow: 0 0 10px #fefefe;
+    transition: all 1s ease;
+}
+
+.textSection .sections .text-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    opacity: 0.8;
+    padding: 2rem;
+    transition: all 1s ease;
+}
+
+.textSection .sections .text-container:hover {
+    opacity: 1;
+}
+
+.textSection .sections .text-container h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 0 5px #fefefe;
+}
+
+.textSection .sections .text-container p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 0 0 5px #fefefe;
+    margin: 0.4rem 0;
+}
+
+.textSection .sections .img-container .logo {
+    width: 100%;
+    height: auto;
+    box-shadow: none;
+    padding: 1rem;
+}
+
+.textSection .sections .img-container a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textSection .sections .text-container h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 0 5px #fefefe;
+    margin-top: 0.4rem;
+}
+
+.textSection .sections .text-container ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 2rem;
+}
+
+.textSection .sections .text-container ul li {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 0 0 5px #fefefe;
+    margin: 0rem 0;
+}
+
+.textSection .sections .text-container ul li::before {
+    content: "-";
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+@media screen and (max-width: 768px) {
+    .textSection {
+        height: auto;
+    }
+
+    .textSection .sections {
+        flex-direction: column;
+    }
+
+    .textSection .sections .img-container {
+        width: 100%;
+        height: 100%;
+        margin: 1rem;
+    }
+
+    .textSection .sections .img-container img {
+        border-radius: 0;
+    }
+
+    .textSection .sections .text-container {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .textSection .sections .text-container h1 {
+        font-size: 1.2rem;
+        text-shadow: none;
+    }
+
+    .textSection .sections .text-container p {
+        font-size: 1rem;
+    }
+
+    .textSection .sections .text-container h2 {
+        font-size: 1rem;
+        text-shadow: none;
+    }
+
+    .textSection .sections .text-container ul {
+        padding-left: 1rem;
+    }
+
+    .textSection .sections .text-container ul li {
+        font-size: 0.8rem;
+    }
+
+    .textSection .sections .text-container ul li::before {
+        font-size: 1rem;
+    }
+}

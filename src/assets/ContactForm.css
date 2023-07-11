@@ -1,0 +1,112 @@
+.contact-form {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.contact-form h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.contact-form form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: all 1s ease;
+}
+
+.contact-form form:hover {
+    opacity: 1;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+    width: 20rem;
+    height: 2rem;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000;
+    box-shadow: 0 0 5px #fefefe;
+    opacity: 0.8;
+    transition: all 1s ease;
+}
+
+.contact-form form input:hover,
+.contact-form form textarea:hover {
+    opacity: 1;
+    box-shadow: 0 0 10px #fefefe;
+}
+
+.contact-form form input:focus,
+.contact-form form textarea:focus {
+    opacity: 1;
+    box-shadow: 0 0 10px #fefefe;
+}
+
+.contact-form form textarea {
+    height: 4rem;
+}
+
+.contact-form form button {
+    width: 10rem;
+    height: 2rem;
+    margin: 0.5rem 0;
+    border: solid 1px #fff;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    background-color: transparent;
+    box-shadow: 0 0 5px #fefefe;
+    opacity: 0.8;
+    transition: all 1s ease;
+}
+
+.contact-form form button:hover {
+    opacity: 1;
+    box-shadow: 0 0 10px #fefefe;
+}
+
+.contact-form .submit-status {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 0 0 5px #fefefe;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-form h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .contact-form form input,
+    .contact-form form textarea {
+        width: 15rem;
+    }
+
+    .contact-form form button {
+        width: 8rem;
+    }
+}
+

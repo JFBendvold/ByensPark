@@ -1,0 +1,31 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #fefefe;
+    cursor: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
