@@ -12,7 +12,7 @@
 }
 
 .title-header h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 700;
     color: #fff;
     text-shadow: 0 0 5px #fefefe;
@@ -82,7 +82,7 @@
 
 @media screen and (max-width: 768px) {
     .title-header h1 {
-        font-size: 3rem;
+        font-size: 2rem;
         text-shadow: none;
     }
 
