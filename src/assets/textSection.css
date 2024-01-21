@@ -43,7 +43,7 @@
     max-height: 500px;
     border-radius: 40px;
     opacity: 0.8;
-    box-shadow: 0 0 10px #fefefe;
+    box-shadow: 0 0 0px #fefefe;
     transition: all 1s ease;
 }
 

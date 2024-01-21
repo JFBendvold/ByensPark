@@ -23,7 +23,7 @@ window.addEventListener("scroll", () => {
     <div class="textSection" id="about" ref="textSection">
         <div class="sections">
             <div class="img-container" ref="imageSection">
-                <img src="../assets/img/temp.jpg" alt="Byens Park">
+                <img src="../assets/img/activities.jpg" alt="Byens Park">
             </div>
             <div class="text-container">
                 <h1>
@@ -38,10 +38,7 @@ window.addEventListener("scroll", () => {
                         ved å ha ansatte tilgjengelige til faste tidspunkter hver dag
                     </li>
                     <li>
-                        vakttelefon
-                    </li>
-                    <li>
-                        ved at alle leilighetene har alarm og porttelefon
+                        ved at alle leilighetene har alarm og porttelefon med kamera
                     </li>
                     <li>
                         ved å ha velferdsteknologiske løsninger i hver boenhet som bl.a. kan varsle betjeningen ved fall
@@ -87,7 +84,7 @@ window.addEventListener("scroll", () => {
                         ved å ha uteområder som er tilrettelagt for aktiviteter
                     </li>
                     <li>
-                        ved å ha tilgang til fysioterapeut og aktivitør i fellesområdet
+                        ved å ha tilgang til fysioterapeut faste dager i uka i fellesområdet
                     </li>
                 </ul>
             </div>

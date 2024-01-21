@@ -25,14 +25,14 @@ window.addEventListener("scroll", () => {
             <div class="text-container">
                 <h1>Personlig Omsorg AS</h1>
                 <p>
-                    Vi er en privat tjenesteyter som ble etablert i 2007.
+                    Vi er en privat tjenesteyter som ble etablert i 2007. 
                 </p>
                 <p>
                     Siden den gang har vi tilbudt praktisk bistand som hjemmehjelp, følgetjenester, avlastning,
-                    fotpleie, frisør og helse- og omsorgstjenester til mange private hjem i hele Østfold. 
+                    fotpleie, frisør og helse- og omsorgstjenester til mange private hjem i hele Østfold.
                 </p>
                 <p>
-                    Vi har tilbudt tjenester innen det offentlige via fritt brukervalg.
+                    Vi har tilbudt tjenester gjennom det offentlige via fritt brukervalg.
                 </p>
                 <p>
                     Vårt motto og verdigrunnlag er basert på: Respekt - Trygghet - Glede.

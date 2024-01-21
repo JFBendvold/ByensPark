@@ -23,7 +23,7 @@ window.addEventListener("scroll", () => {
     <div class="textSection" id="about" ref="textSection">
         <div class="sections">
             <div class="img-container" ref="imageSection">
-                <img src="../assets/img/temp.jpg" alt="Byens Park">
+                <img src="../assets/img/fasade.jpg" alt="Byens Park">
             </div>
             <div class="text-container">
                 <h1>
@@ -40,13 +40,13 @@ window.addEventListener("scroll", () => {
                 </p>
                 <p>
                     Vi tilbyr valgmulighetene en slik tilværelse kan by på. Lettstelte, lyse selveierleiligheter med
-                    livsløpsstandard og muligheten til å kunne være aktiv og sosial i lett tilgjengelige felleslokaler.
+                    livsløpsstandard og muligheten til å kunne være aktiv og sosial i lett tilgjengelige felleslokaler. 
                 </p>
                 <p>
                     Ansatte som kan bistå med stell av leiligheten eller organisere aktiviteter og felles turer.
                 </p>
                 <p>
-                    Det vil være profesjonell oppfølging og vedlikehold av hus og hage.
+                    Det vil være profesjonell oppfølging og vedlikehold av hus og hage. 
                 </p>
                 <p>
                     Personlig Omsorg sitt innovative boligkonsept er en boligform for aktive voksne mennesker,
