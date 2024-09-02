@@ -23,7 +23,7 @@ window.addEventListener("scroll", () => {
     <div class="textSection" id="about" ref="textSection">
         <div class="sections">
             <div class="img-container" ref="imageSection">
-                <img src="../assets/img/activities.jpg" alt="Byens Park">
+                <img src="../assets/img/5.jpg" alt="Byens Park">
             </div>
             <div class="text-container">
                 <h1>
@@ -35,7 +35,7 @@ window.addEventListener("scroll", () => {
                 </h2>
                 <ul>
                     <li>
-                        ved å ha ansatte tilgjengelige til faste tidspunkter hver dag
+                        ved å ha husvert tilgjengelige til faste tidspunkter hver dag
                     </li>
                     <li>
                         ved at alle leilighetene har alarm og porttelefon med kamera

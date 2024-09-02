@@ -1,11 +1,6 @@
 <script setup>
 import '@fortawesome/fontawesome-free/css/all.css'
 import "@/assets/NavMenu.css"
-import pdf from "@/assets/Prospekt.pdf"
-
-const prospect = () => {
-    window.open(pdf, "_blank");
-}
 </script>
 
 <template>
@@ -27,9 +22,9 @@ const prospect = () => {
                 </a>
             </div>
             <div class="menu-item">
-                <button class="clickable" @click="prospect">
-                    <i class="fas fa-download clickable"></i>
-                </button>
+                <a class="clickable" href="#kontakt">
+                    Kontakt oss
+                </a>
             </div>
         </div>
     </div>

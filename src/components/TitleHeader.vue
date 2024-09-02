@@ -4,6 +4,13 @@ import '@fortawesome/fontawesome-free/css/all.css'
 import pdf from "@/assets/Prospekt.pdf"
 
 const prospect = () => {
+    let password = window.prompt("Passord for å laste ned prospektet", "");
+
+    if (password !== "Bjørn") {
+        alert("Feil passord");
+        return;
+    }
+
     window.open(pdf, "_blank");
 }
 
@@ -25,7 +32,7 @@ const prospect = () => {
             </a>
         </a>
         <button class="prospect-btn clickable" @click="prospect">
-            Last ned prospekt
+            Last ned prospekt <i class="fas fa-lock"></i>
         </button>
     </div>
 </template>

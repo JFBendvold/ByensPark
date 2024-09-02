@@ -29,7 +29,7 @@ window.addEventListener("scroll", () => {
                 </p>
                 <p>
                     Siden den gang har vi tilbudt praktisk bistand som hjemmehjelp, følgetjenester, avlastning,
-                    fotpleie, frisør og helse- og omsorgstjenester til mange private hjem i hele Østfold.
+fotpleie, frisør og helse- og omsorgstjenester til mange private hjem i hele Østfold. 
                 </p>
                 <p>
                     Vi har tilbudt tjenester gjennom det offentlige via fritt brukervalg.
@@ -43,7 +43,7 @@ window.addEventListener("scroll", () => {
                 </p>
                 <p>
                     Vi har erfart at mange verdsetter privatlivet sitt, men samtidig ønsker seg en enklere hverdag og
-                    en trygg arena med mulighet for sosialt samvær og aktiviteter. 
+en trygg arena med mulighet for sosialt samvær og aktiviteter.
                 </p>
                 <p>
                     I prospektet vil vi presentere hvordan tjenestene, til Personlig Omsorg AS, og boligformen

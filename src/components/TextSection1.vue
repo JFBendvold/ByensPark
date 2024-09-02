@@ -31,16 +31,16 @@ window.addEventListener("scroll", () => {
                 </h1>
                 <p>
                     Personlig Omsorg sitt innovative boligkonsept er en boligform der vi legger alt til rette for at
-                    byens voksne befolkning skal ha muligheter til å bestemme selv hvordan hverdagen skal være.
-                    Både i form av hvilke aktiviteter man ønsker å prioritere, og hvilke fritidsinteresser man ønsker å
-                    bruke tid på.
+byens voksne befolkning skal ha muligheter til å bestemme selv hvordan hverdagen skal være.
+Både i form av hvilke aktiviteter man ønsker å prioritere, og hvilke fritidsinteresser man ønsker å
+bruke tid på.
                 </p>
                 <p>
                     Altså; en livsstilsbolig for voksne uten hjemmeboende barn. 
                 </p>
                 <p>
                     Vi tilbyr valgmulighetene en slik tilværelse kan by på. Lettstelte, lyse selveierleiligheter med
-                    livsløpsstandard og muligheten til å kunne være aktiv og sosial i lett tilgjengelige felleslokaler. 
+livsløpsstandard og muligheten til å kunne være aktiv og sosial i lett tilgjengelige felleslokaler. 
                 </p>
                 <p>
                     Ansatte som kan bistå med stell av leiligheten eller organisere aktiviteter og felles turer.
@@ -50,8 +50,8 @@ window.addEventListener("scroll", () => {
                 </p>
                 <p>
                     Personlig Omsorg sitt innovative boligkonsept er en boligform for aktive voksne mennesker,
-                    som hver dag vil ønskes velkommen av vår husvert. Kaffe, noe å bite i og dagens avis tilbys i
-                    fellesarealet. Om ønskelig, vil man få oppfølging fra dyktige medarbeidere i Personlig Omsorg AS.
+som hver dag vil ønskes velkommen av vår husvert. Kaffe, noe å bite i og dagens avis tilbys i
+fellesarealet. Om ønskelig, vil man få oppfølging fra dyktige medarbeidere i Personlig Omsorg AS.
                 </p>
             </div>
         </div>

@@ -25,20 +25,27 @@ window.addEventListener("scroll", () => {
             <div class="text-container">
                 <h1>Arkitekten</h1>
                 <p>
-                    Meter Arkitektur AS, ved Magnus Olsen, har laget et utkast til bygningene, inn- og utvendig.
+                    Meter Arkitektur AS er lokalisert i Fredrikstad, men jobber med prosjekterover hele landet. Kontoret jobber med eiendomsutviklere som har både store og små oppgaver.
                 </p>
                 <p>
-                    Meter Arkitektur AS er et solid lokalt firma etablert i 2001 med tilholdssted i Gamlebyen i Fredrikstad.
+                    Meter Arkitektur AS ble opprettet 2004, og har derfor en bred portefølje med prosjekter. Tyngden av denne ligger på kontor- og logistikkbygg, som innebærer å løse kompliserte og detaljerte samfunnsfunksjoner.
                 </p>
                 <p>
-                    Siden oppstart har de tegnet alt fra eneboliger og hytter til større boligområder og industribygg. 
-                    Dermed har de erfaring med å samarbeide 
-                    med privatpersoner og store eiendomsutviklere.
+                    Kontoret har prosjektert blant annet BAMAs hovedkvarter i Oslo, lakseoppdrettsanlegg på land i Fredrikstad og fremtidens
+                    energistasjon for YX/7-eleven. I tillegg har vi skoleanlegg, barnehager,
+                    boligprosjekter og hytter på listen over utførte prosjekter.
                 </p>
                 <p>
-                    Gjennom disse prosjektene har Meter Arkitektur AS opparbeidet seg bred
-                    erfaring med passivhus, og innehar kompetanse til å prosjektere aktivhus
-                    eller «økohus» hvor lavt energibruk i byggefasen også har stort fokus.
+                    Vi legger stor vekt
+                    på tverrfaglig samarbeid i arbeidsprosessen, noe vi mener sikrer det beste
+                    resultat for kunder og brukere.
+                </p>
+                <p>
+                    Byens Park er tenkt som et trygt og samlende sted for en voksen målgruppe.
+Bygningen er formet rundt et fellesareal som skal brukes av beboerne,
+hvor det oppfordres til felles aktiviteter. Alle leiligheter har egen balkong eller
+uteplass. Alle beboere har tilgang til frisør, treningsrom, fysioterapi og
+fellesstue – alt under samme tak.
                 </p>
             </div>
             <div class="img-container" ref="imageSection">

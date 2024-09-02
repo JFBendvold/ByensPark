@@ -5,7 +5,7 @@ import ProgressBar from './components/ProgressBar.vue';
 import FooterMenu from './components/FooterMenu.vue';
 import { ref } from "vue";
 
-const locked = ref(true);
+const locked = ref(false);
 const userPassword = ref('');
 
 const correctPassword = '12345678';

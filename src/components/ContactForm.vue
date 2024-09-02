@@ -50,7 +50,7 @@ onMounted(() => {
 </script>
 
 <template>
-    <div class="contact-form" ref="contactForm">
+    <div class="contact-form" ref="contactForm" id="kontakt">
         <h2>
             Er du en utbygger som ønsker å bli med på laget?
         </h2>
