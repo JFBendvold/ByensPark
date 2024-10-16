@@ -1,0 +1,87 @@
+.presentButton {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    align-items: center;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 1s ease;
+    background-color: #333;
+    z-index: 10;
+}
+
+.presentButton:hover {
+    opacity: 1;
+    box-shadow: 0 0 10px #fff;
+}
+
+.presentButton span {
+    color: #fefefe;
+    font-size: 1.5rem;
+}
+
+.presentationModal {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fefefe;
+    z-index: 110;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.show {
+    right: 0;
+    opacity: 1;
+}
+
+.closeButton {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    align-items: center;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 1s ease;
+    background-color: #333;
+}
+
+.closeButton:hover {
+    opacity: 1;
+    box-shadow: 0 0 10px #fff;
+}
+
+.closeButton i {
+    color: #fefefe;
+    font-size: 1rem;
+}
+
+.modal-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    overflow-y: auto;
+}

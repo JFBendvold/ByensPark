@@ -23,31 +23,29 @@ window.addEventListener("scroll", () => {
     <div class="textSection" id="personligomsorg" ref="textSection">
         <div class="sections">
             <div class="text-container">
-                <h1>Personlig Omsorg AS</h1>
+                <h1>Personlig Omsorg AS er tjenesteleverandør</h1>
                 <p>
-                    Vi er en privat tjenesteyter som ble etablert i 2007. 
+                    Vi har siden 2007 levert tjenestene våre til personer i hele Østfold. Vi har sett og lært hva seniorbefolkningen ønsker av tjenester og hvordan de skal utføres for at hverdagen skal bli så bra som mulig.
+Stadig oftere mottar vi henvendelser om vi har tilrettelagte boliger eller omsorgsboliger. Vi ønsker å møte
+denne etterspørselen, slik vi har gjort ved å videreutvikle tjenestene våre gjennom mange år.De siste
+årene har vi lagt ned store ressurser på å utvikle tjenester og tilbud vi mener seniorbefolkningen kan nyte
+godt av.
                 </p>
                 <p>
-                    Siden den gang har vi tilbudt praktisk bistand som hjemmehjelp, følgetjenester, avlastning,
-fotpleie, frisør og helse- og omsorgstjenester til mange private hjem i hele Østfold. 
+                    Grunnlaget for dette prospektet, er våre erfaringer knyttet opp mot funksjonelle boformer
+for seniorer. Vi har sett på det «beste» fra ulike boformer i Norden.
                 </p>
                 <p>
-                    Vi har tilbudt tjenester gjennom det offentlige via fritt brukervalg.
+                    Personlig Omsorg har startet opp flere prosjekter knyttet til vår virksomhet, som har blitt solgt videre som
+solide, selvstendige bedrifter (eks. Ren Bolig, Optimal Assistanse (nå: Ecura)).
                 </p>
                 <p>
-                    Vårt motto og verdigrunnlag er basert på: Respekt - Trygghet - Glede.
+                    Vi har solid faglig erfaring, da våre ansatte har lang fartstid i den private og offentlige helsetjenesten som
+sykepleiere, vernepleiere, hjelpepleiere og hjemmehjelper.
                 </p>
                 <p>
-                    Nå ønsker vi å integrere våre tjenester i boliger for voksne 50+. Vi vil også ha våre egne kontorer
-                    samt personale tilgjengelige i fellesarealene.
-                </p>
-                <p>
-                    Vi har erfart at mange verdsetter privatlivet sitt, men samtidig ønsker seg en enklere hverdag og
-en trygg arena med mulighet for sosialt samvær og aktiviteter.
-                </p>
-                <p>
-                    I prospektet vil vi presentere hvordan tjenestene, til Personlig Omsorg AS, og boligformen
-                    vil kunne gi deg friheten til å skape en trygg og fleksibel hverdag med mange valgmuligheter. 
+                    <strong>I dag finnes det ikke et tilsvarende botilbud i Østfold. Vi ønsker med dette å dekke et behov som er
+sterkt etterspurt.</strong>
                 </p>
             </div>
             <div class="img-container" ref="imageSection">

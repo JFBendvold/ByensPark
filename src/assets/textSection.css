@@ -42,7 +42,7 @@
     object-fit: cover;
     max-height: 500px;
     border-radius: 40px;
-    opacity: 0.8;
+    opacity: 1;
     box-shadow: 0 0 0px #fefefe;
     transition: all 1s ease;
 }
@@ -54,7 +54,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    opacity: 0.8;
+    opacity: 1;
+    padding: 2rem;
+    transition: all 1s ease;
+}
+
+.textSection .sections .full-text-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
     padding: 2rem;
     transition: all 1s ease;
 }
@@ -66,16 +78,33 @@
 .textSection .sections .text-container h1 {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #fff;
+    color: #000;
     text-shadow: 0 0 5px #fefefe;
+}
+
+.textSection .sections .full-text-container h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000;
+    text-shadow: 0 0 5px #fefefe;
+    text-align: center;
 }
 
 .textSection .sections .text-container p {
     font-size: 1rem;
     font-weight: 400;
-    color: #fff;
+    color: #333;
     text-shadow: 0 0 5px #fefefe;
     margin: 0.4rem 0;
+}
+
+.textSection .sections .full-text-container p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #333;
+    text-shadow: 0 0 5px #fefefe;
+    margin: 1.2rem 0;
+    text-align: center;
 }
 
 .textSection .sections .img-container .logo {
@@ -96,9 +125,18 @@
 .textSection .sections .text-container h2 {
     font-size: 1.2rem;
     font-weight: 700;
-    color: #fff;
+    color: #333;
     text-shadow: 0 0 5px #fefefe;
     margin-top: 0.4rem;
+}
+
+.textSection .sections .full-text-container h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #333;
+    text-shadow: 0 0 5px #fefefe;
+    margin-top: 0.4rem;
+    text-align: center;
 }
 
 .textSection .sections .text-container ul {
@@ -110,14 +148,14 @@
 .textSection .sections .text-container ul li {
     font-size: 1rem;
     font-weight: 400;
-    color: #fff;
+    color: #333;
     text-shadow: 0 0 5px #fefefe;
     margin: 0rem 0;
 }
 
 .textSection .sections .text-container ul li::before {
     content: "-";
-    color: #fff;
+    color: #333;
     font-size: 1.5rem;
     font-weight: 700;
     display: inline-block;

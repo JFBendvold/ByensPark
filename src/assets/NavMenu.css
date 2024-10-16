@@ -14,11 +14,11 @@
 }
 
 .nav-menu .logo {
-    color: #fff;
+    color: #333;
     font-size: 32px;
-    font-weight: 600;
+    font-weight: 400;
     text-decoration: none;
-    opacity: 0.8;
+    opacity: 1;
     letter-spacing: -1px;
 }
 
@@ -29,15 +29,15 @@
 
 .nav-menu .right-menu .menu-item {
     margin-left: 20px;
-    color: #fff;
+    color: #333;
 }
 
 .nav-menu .right-menu .menu-item a {
-    color: #fff;
+    color: #333;
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
-    opacity: 0.8;
+    opacity: 1;
     transition: all 0.3s ease;
 }
 

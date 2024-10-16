@@ -1,0 +1,257 @@
+.stairsPresentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.stairsPresentation .steps {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+}
+
+.stairsPresentation .steps .step {
+    width: 100%;
+    max-width: 800px;
+    min-height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: #fefefe;
+    transition: all 0.5s ease;
+    cursor: default;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+
+.stairsPresentation .steps .step:hover {
+    border-color: #ccc;
+}
+
+.stairsPresentation .steps .irrelevant {
+    opacity: 0.5;
+}
+
+.stairsPresentation .steps .step .stepNumber {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border-color: #333;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 1.5rem;
+}
+
+.stairsPresentation .steps .step .stepContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.stairsPresentation .steps .step .stepContent .stepTitle {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.stairsPresentation .steps .step .stepContent .wordList {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.stairsPresentation .steps .step .stepContent .wordList .word {
+    font-size: 1rem;
+    margin-right: 5px;
+    margin-bottom: 0px;
+}
+
+.stairsPresentation .steps .step .stepContent .wordList .word:last-child {
+    margin-right: 0px;
+}
+
+.searchButton {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 1s ease;
+    background-color: #fefefe;
+}
+
+.searchButton:hover {
+    opacity: 1;
+    box-shadow: 0 0 10px #fff;
+}
+
+.searchButton i {
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.selectedWords {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 800px;
+    padding: 10px;
+}
+
+.selectedWords .selectedWord {
+    font-size: 1rem;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #333;
+    transition: all 0.1s ease;
+    opacity: 1;
+}
+
+.selectedWords .selectedWord:hover {
+    opacity: 0.5;
+}
+
+.stepMatch {
+    width: 100%;
+    height: 4px;
+}
+
+.stepMatch .stepMatchBar {
+    height: 100%;
+    width: 0%;
+    background-color: #25ac00;
+    border-radius: 5px;
+    opacity: 0.5;
+    transition: all 0.5s ease;
+}
+
+.modal {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal .modalContent {
+    width: 90%;
+    max-width: 800px;
+    height: 90%;
+    max-height: 600px;
+    overflow-y: auto;
+    background-color: #fefefe;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.modal .modalContent .modalHeader {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.modal .modalContent .modalHeader .modalTitle {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.modal .modalContent .modalHeader .closeModalButton {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.1s ease;
+    background-color: #fefefe;
+}
+
+.modal .modalContent .modalHeader .closeModalButton:hover {
+    opacity: 1;
+}
+
+.modal .modalContent .modalBody {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.modal .modalContent .modalBody .wordList {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.modal .modalContent .modalBody .wordList .word {
+    font-size: 1rem;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #333;
+    transition: all 0.1s ease;
+    opacity: 1;
+}
+
+.modal .modalContent .modalBody .wordList .word:hover {
+    opacity: 0.5;
+}
+
+.modal .modalContent .modalBody .wordList .selected {
+    background-color: #25ac00;
+    color: #fefefe;
+}
