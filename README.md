@@ -1,7 +1,6 @@
 # ByensPark
 
-Webpage showcasing a housing concept using Vue3
-Can be seen at: https://byenspark.no/
+Webpage showcasing a housing concept using Vue3. Can be seen at: https://byenspark.no/
 
 ## Recommended IDE Setup
 
