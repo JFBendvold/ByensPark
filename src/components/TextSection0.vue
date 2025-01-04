@@ -37,7 +37,7 @@ nytte.
                     Med prosjektet vårt ønsker vi å motvirke dette.
                 </p>
                 <p><strong>
-                    Derfor har vi tenkt ut/planlagt tjenestetilbud
+                    Derfor har vi planlagt tjenestetilbud
                     og aktiviteter som skal virke inkluderende, skape samhold og mestring.</strong>
                 </p>
             </div>

@@ -30,28 +30,28 @@ window.addEventListener("scroll", () => {
                     OM BOLIGKONSEPTET
                 </h1>
                 <p>
-                    Personlig Omsorg sitt innovative boligkonsept er en boligform der vi legger alt til rette for at
-byens voksne befolkning skal ha muligheter til å bestemme selv hvordan hverdagen skal være.
-Både i form av hvilke aktiviteter man ønsker å prioritere, og hvilke fritidsinteresser man ønsker å
-bruke tid på.
+                    Personlig Omsorg sitt boligkonsept er en boligform der vi legger alt til rette for at byens seniorer
+skal ha muligheter til å bestemme selv hvordan hverdagen skal være. Både i form av hvilke
+aktiviteter man ønsker å prioritere, og hvilke fritidsinteresser man ønsker å bruke tid på.
                 </p>
                 <p>
-                    Altså; en livsstilsbolig for voksne uten hjemmeboende barn. 
+                    Altså; en helsefremmende livsstilsbolig.
                 </p>
                 <p>
-                    Vi tilbyr valgmulighetene en slik tilværelse kan by på. Lettstelte, lyse selveierleiligheter med
-livsløpsstandard og muligheten til å kunne være aktiv og sosial i lett tilgjengelige felleslokaler. 
+                    Vi tilbyr valgmulighetene er slik tilværelse kan by på. Lettstelte, lyse selveierleiligheter med
+livsløpsstandard og muligheten til å kunne være aktiv og sosial i lett tilgjengelige felleslokaler.
                 </p>
                 <p>
-                    Ansatte som kan bistå med stell av leiligheten eller organisere aktiviteter og felles turer.
+                <strong>Alt skal være innomhus slik at du ikke trenger å kle på deg yttertøy for å være sosial og aktiv.</strong>
                 </p>
                 <p>
-                    Det vil være profesjonell oppfølging og vedlikehold av hus og hage. 
+                    Det vil være profesjonell oppfølging og vedlikehold av hus og hage, samt ansatte som kan bistå
+med stell av leiligheten eller organisere aktiviteter og felles turer.
                 </p>
                 <p>
-                    Personlig Omsorg sitt innovative boligkonsept er en boligform for aktive voksne mennesker,
-som hver dag vil ønskes velkommen av vår husvert. Kaffe, noe å bite i og dagens avis tilbys i
-fellesarealet. Om ønskelig, vil man få oppfølging fra dyktige medarbeidere i Personlig Omsorg AS.
+                    Personlig Omsorg sitt boligkonsept er en boligform for aktive seniorer, som hver dag vil ønskes
+velkommen av vår husvert. Kaffe, noe å bite i og dagens avis tilbys i fellesarealet. Om ønskelig,
+vil man få ytterligere oppfølging fra dyktige medarbeidere i Personlig Omsorg AS.
                 </p>
             </div>
         </div>
