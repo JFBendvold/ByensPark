@@ -22,9 +22,6 @@ window.addEventListener("scroll", () => {
 <template>
     <div class="textSection" id="about" ref="textSection">
         <div class="sections">
-            <div class="img-container" ref="imageSection">
-                <img src="../assets/img/5.jpg" alt="Byens Park">
-            </div>
             <div class="text-container">
                 <h1>
                     VI ØNSKER Å BIDRA TIL EN <br/>TRYGG,
@@ -87,6 +84,9 @@ window.addEventListener("scroll", () => {
                         ved å ha tilgang til fysioterapeut faste dager i uka i fellesområdet
                     </li>
                 </ul>
+            </div>
+            <div class="img-container" ref="imageSection">
+                <img src="../assets/img/5.jpg" alt="Byens Park">
             </div>
         </div>
     </div>

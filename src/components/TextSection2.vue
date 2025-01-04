@@ -5,6 +5,8 @@ import { ref } from "vue";
 const textSection = ref(null);
 const imageSection = ref(null);
 
+const showMore = ref(false);
+
 //Onscroll
 window.addEventListener("scroll", () => {
     //imageSection.value.style.transform = `translateY(${window.scrollY / 2}px)`;
@@ -22,6 +24,11 @@ window.addEventListener("scroll", () => {
 <template>
     <div class="textSection" id="personligomsorg" ref="textSection">
         <div class="sections">
+            <div class="img-container" ref="imageSection">
+                <a href="https://personligomsorg.no/" class="clickable" target="_blank">
+                    <img src="../assets/img/PO-logo.png" alt="Personlig Omsorg logo" class="logo clickable" />
+                </a>
+            </div>
             <div class="text-container">
                 <h1>Personlig Omsorg AS er tjenesteleverandør</h1>
                 <p>
@@ -39,19 +46,18 @@ for seniorer. Vi har sett på det «beste» fra ulike boformer i Norden.
                     Personlig Omsorg har startet opp flere prosjekter knyttet til vår virksomhet, som har blitt solgt videre som
 solide, selvstendige bedrifter (eks. Ren Bolig, Optimal Assistanse (nå: Ecura)).
                 </p>
-                <p>
+                <p v-show="showMore">
                     Vi har solid faglig erfaring, da våre ansatte har lang fartstid i den private og offentlige helsetjenesten som
 sykepleiere, vernepleiere, hjelpepleiere og hjemmehjelper.
                 </p>
-                <p>
+                <p v-show="showMore">
                     <strong>I dag finnes det ikke et tilsvarende botilbud i Østfold. Vi ønsker med dette å dekke et behov som er
 sterkt etterspurt.</strong>
                 </p>
-            </div>
-            <div class="img-container" ref="imageSection">
-                <a href="https://personligomsorg.no/" class="clickable" target="_blank">
-                    <img src="../assets/img/PO-logo.png" alt="Personlig Omsorg logo" class="logo clickable" />
-                </a>
+                <div class="showMore" @click="showMore = !showMore" v-show="!showMore">
+                    <p v-if="showMore">Vis mindre</p>
+                    <p v-else>Vis mer</p>
+                </div>
             </div>
         </div>
     </div>

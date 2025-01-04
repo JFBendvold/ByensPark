@@ -5,6 +5,8 @@ import { ref } from "vue";
 const textSection = ref(null);
 const imageSection = ref(null);
 
+const showMore = ref(false);
+
 //Onscroll
 window.addEventListener("scroll", () => {
     //imageSection.value.style.transform = `translateY(${window.scrollY / 2}px)`;
@@ -44,15 +46,19 @@ livsløpsstandard og muligheten til å kunne være aktiv og sosial i lett tilgje
                 <p>
                 <strong>Alt skal være innomhus slik at du ikke trenger å kle på deg yttertøy for å være sosial og aktiv.</strong>
                 </p>
-                <p>
+                <p v-show="showMore">
                     Det vil være profesjonell oppfølging og vedlikehold av hus og hage, samt ansatte som kan bistå
 med stell av leiligheten eller organisere aktiviteter og felles turer.
                 </p>
-                <p>
+                <p v-show="showMore">
                     Personlig Omsorg sitt boligkonsept er en boligform for aktive seniorer, som hver dag vil ønskes
 velkommen av vår husvert. Kaffe, noe å bite i og dagens avis tilbys i fellesarealet. Om ønskelig,
 vil man få ytterligere oppfølging fra dyktige medarbeidere i Personlig Omsorg AS.
                 </p>
+                <div class="showMore" @click="showMore = !showMore" v-show="!showMore">
+                    <p v-if="showMore">Vis mindre</p>
+                    <p v-else>Vis mer</p>
+                </div>
             </div>
         </div>
     </div>

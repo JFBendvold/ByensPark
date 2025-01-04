@@ -13,10 +13,10 @@ import PresentationModal from '../components/presentation/PresentationModal.vue'
 <template>
   <main>
     <TitleHeader />
-    <TextSection0 />
     <TextSection1 />
-    <TextSection2 />
+    <TextSection0 />
     <TextSection3 />
+    <TextSection2 />
     <TextSection4 />
     <ContactForm />
     <PresentationModal />

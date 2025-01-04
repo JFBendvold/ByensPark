@@ -5,6 +5,8 @@ import { ref } from "vue";
 const textSection = ref(null);
 const imageSection = ref(null);
 
+const showMore = ref(false);
+
 //Onscroll
 window.addEventListener("scroll", () => {
     //imageSection.value.style.transform = `translateY(${window.scrollY / 2}px)`;
@@ -35,18 +37,22 @@ window.addEventListener("scroll", () => {
                     energistasjon for YX/7-eleven. I tillegg har vi skoleanlegg, barnehager,
                     boligprosjekter og hytter på listen over utførte prosjekter.
                 </p>
-                <p>
+                <p v-show="showMore">
                     Vi legger stor vekt
                     på tverrfaglig samarbeid i arbeidsprosessen, noe vi mener sikrer det beste
                     resultat for kunder og brukere.
                 </p>
-                <p>
+                <p v-show="showMore">
                     Byens Park er tenkt som et trygt og samlende sted for en voksen målgruppe.
 Bygningen er formet rundt et fellesareal som skal brukes av beboerne,
 hvor det oppfordres til felles aktiviteter. Alle leiligheter har egen balkong eller
 uteplass. Alle beboere har tilgang til frisør, treningsrom, fysioterapi og
 fellesstue – alt under samme tak.
                 </p>
+                <div class="showMore" @click="showMore = !showMore" v-show="!showMore">
+                    <p v-if="showMore">Vis mindre</p>
+                    <p v-else>Vis mer</p>
+                </div>
             </div>
             <div class="img-container" ref="imageSection">
                 <a href="https://www.meter-as.no/" class="clickable" target="_blank">
