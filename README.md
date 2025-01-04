@@ -1,6 +1,6 @@
 # ByensPark
 
-This template should help get you started developing with Vue 3 in Vite.
+Webpage showcasing a housing concept using Vue3. Can be seen at: https://byenspark.no/
 
 ## Recommended IDE Setup
 
