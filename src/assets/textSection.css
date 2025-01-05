@@ -187,6 +187,26 @@
     opacity: 0.6;
 }
 
+.textSection .sections .showMoreList {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    opacity: 1;
+    transition: all 1s ease;
+}
+
+.textSection .sections .showMoreList p {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #333;
+    text-shadow: 0 0 5px #fefefe;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
     .textSection {
         height: auto;
@@ -237,5 +257,13 @@
 
     .textSection .sections .text-container ul li::before {
         font-size: 1rem;
+    }
+
+    .textSection .sections .showMore p {
+        font-size: 0.6rem;
+    }
+
+    .textSection .sections .showMoreList p {
+        font-size: 0.8rem;
     }
 }

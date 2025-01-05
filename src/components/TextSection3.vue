@@ -5,6 +5,10 @@ import { ref } from "vue";
 const textSection = ref(null);
 const imageSection = ref(null);
 
+const showMore1 = ref(false);
+const showMore2 = ref(false);
+const showMore3 = ref(false);
+
 //Onscroll
 window.addEventListener("scroll", () => {
     //imageSection.value.style.transform = `translateY(${window.scrollY / 2}px)`;
@@ -31,58 +35,53 @@ window.addEventListener("scroll", () => {
                     Trygg
                 </h2>
                 <ul>
-                    <li>
-                        ved å ha husvert tilgjengelige til faste tidspunkter hver dag
+                    <li>ved å ha husvert tilgjengelige til faste tidspunkter hver dag
                     </li>
-                    <li>
-                        ved at alle leilighetene har alarm og porttelefon med kamera
+                    <li>ved at alle leilighetene har alarm og porttelefon med kamera
                     </li>
-                    <li>
-                        ved å ha velferdsteknologiske løsninger i hver boenhet som bl.a. kan varsle betjeningen ved fall
+                    <li>ved å ha velferdsteknologiske løsninger i hver boenhet som bl.a. kan varsle betjeningen ved fall
                     </li>
-                    <li>
-                        det vil være hjertestarter plassert i resepsjonsområdet
+                    <li v-show="showMore1">det vil være hjertestarter plassert i resepsjonsområdet
                     </li>
-                    <li>
-                        ved at Personlig Omsorg AS er lokalisert i bygget
+                    <li v-show="showMore1">ved at Personlig Omsorg AS er lokalisert i bygget
                     </li>
+                    <div class="showMoreList" @click="showMore1 = !showMore1" v-show="!showMore1">
+                        <p>Vis mer</p>
+                    </div>
                 </ul>
                 <h2>
                     Sosial
                 </h2>
                 <ul>
-                    <li>
-                        ved å ha fellesarealer med stue, tv-stue og bibliotekkrok
+                    <li>ved å ha fellesarealer med stue, tv-stue og bibliotekkrok
                     </li>
-                    <li>
-                        ved å ha kjøkken og spisestue som er tilgjengelige for alle beboere
+                    <li>ved å ha kjøkken og spisestue som er tilgjengelige for alle beboere
                     </li>
-                    <li>
-                        ved å ha fellesarealer med sittegrupper utendørs
+                    <li>ved å ha fellesarealer med sittegrupper utendørs
                     </li>
-                    <li>
-                        ved å arrangere og legge til rette for sosiale sammenkomster, turer og aktiviteter
+                    <li v-show="showMore2">ved å arrangere og legge til rette for sosiale sammenkomster, turer og aktiviteter
                     </li>
-                    <li>
-                        ved å ha personale til stedet i felleslokalene som koker kaffe og tilbyr noe å bite i
+                    <li v-show="showMore2">ved å ha personale til stedet i felleslokalene som koker kaffe og tilbyr noe å bite i
                     </li>
+                    <div class="showMoreList" @click="showMore2 = !showMore2" v-show="!showMore2">
+                        <p>Vis mer</p>
+                    </div>
                 </ul>
                 <h2>
                     Aktiv
                 </h2>
                 <ul>
-                    <li>
-                        ved å ha fri tilgang til trimrom og aktivitets-/hobbyrom
+                    <li>ved å ha fri tilgang til trimrom og aktivitets-/hobbyrom
                     </li>
-                    <li>
-                        ved å arrangere og legge til rette for turer og aktiviteter
+                    <li>ved å arrangere og legge til rette for turer og aktiviteter
                     </li>
-                    <li>
-                        ved å ha uteområder som er tilrettelagt for aktiviteter
+                    <li>ved å ha uteområder som er tilrettelagt for aktiviteter
                     </li>
-                    <li>
-                        ved å ha tilgang til fysioterapeut faste dager i uka i fellesområdet
+                    <li v-show="showMore3">ved å ha tilgang til fysioterapeut faste dager i uka i fellesområdet
                     </li>
+                    <div class="showMoreList" @click="showMore3 = !showMore3" v-show="!showMore3">
+                        <p>Vis mer</p>
+                    </div>
                 </ul>
             </div>
             <div class="img-container" ref="imageSection">
