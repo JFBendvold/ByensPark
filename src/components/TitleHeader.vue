@@ -19,7 +19,7 @@ const prospect = () => {
 <template>
     <div class="title-header">
         <h1>
-            Et innovativt boligkonsept med<br/>tjenester
+            Et helsefremmende boligkonsept med<br/>tjenester
             fra Personlig Omsorg AS
         </h1>
         <h2>
