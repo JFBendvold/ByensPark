@@ -7,12 +7,14 @@ import StairsPresentation from './StairsPresentation.vue';
 const presenting = ref(false) // Ref for the modal
 
 const present = () => {
+    /*
     let password = window.prompt("Passord for presentasjon", "");
 
     if (password !== "Bjørn") {
         alert("Feil passord");
         return;
     }
+    */
 
     presenting.value = true
 }
